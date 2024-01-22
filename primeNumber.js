@@ -6,7 +6,7 @@
 //   }
 //   return e <= 1 ? e + " Not Prime" : e + " Prime";
 // }
-
+//Big-O = O(n)-Linear
 // console.log(isPrime(5));
 // console.log(isPrime(1));
 // console.log(isPrime(0));
