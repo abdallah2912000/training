@@ -5,7 +5,7 @@
 //     }
 //     return e === 2 || e === 1 ? true : false;
 //   }
-// }    Big-O = O(n)-Linear
+// }    Big-O = O(logn)-Logrithmic
 
 // function isPowerOfTwo(e) {
 //   return (e & (e - 1)) === 0
