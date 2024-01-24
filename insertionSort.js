@@ -1,13 +1,16 @@
-function insertionSort(arr) {
-  for (let i = 1; i < arr.length; i++) {
-    let nti = arr[i];
-    let se = i - 1;
-    while (se >= 0 && arr[se] > nti) {
-      arr[se + 1] = arr[se];
-      se = i - 1;
-    }
-    arr[se + 1] = nti;
-  }
-}
+// function insertionSort(arr) {
+//   for (let i = 1; i < arr.length; i++) {
+//     let insertNumber = arr[i];
+//     let sortNumber = i - 1;
+//     while (sortNumber >= 0 && arr[sortNumber] > insertNumber) {
+//       arr[sortNumber + 1] = arr[sortNumber];
+//       sortNumber = sortNumber - 1;
+//     }
+//     arr[sortNumber + 1] = insertNumber;
+//   }
+//   return arr;
+// }
 
-console.log(insertionSort([1, 3, 9, 7, 8, 5]));
+// Big-O = O(n^2)-Quadratic   cause nested loob
+
+// console.log(insertionSort([-3, -5, 10, -1, 0, 5, 3]));
