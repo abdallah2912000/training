@@ -1,8 +1,8 @@
 // function cartesianProduct(arr1, arr2) {
 //   let result = [];
-//   for (const i in arr1) {
-//     for (const index in arr2) {
-//       result.push([arr1[i], arr2[index]]);
+//   for (const i of arr1) {
+//     for (const index of arr2) {
+//       result.push([i, index]);
 //     }
 //   }
 //   return result;
