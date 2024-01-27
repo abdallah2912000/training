@@ -1,7 +1,7 @@
 // function cartesianProduct(arr1, arr2) {
 //   let result = [];
-//   for (let i = 0; i < arr1.length; i++) {
-//     for (let index = 0; index < arr2.length; index++) {
+//   for (const i in arr1) {
+//     for (const index in arr2) {
 //       result.push([arr1[i], arr2[index]]);
 //     }
 //   }
