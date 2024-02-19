@@ -15,5 +15,3 @@ function* gen() {
 let a = gen();
 console.log(a.next().value);
 console.log(a.next().value);
-console.log(a.next().value);
-console.log(a.next().value);
